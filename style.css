@@ -4,17 +4,8 @@ body {
 
 
 div {
-    padding: 0px;
+    padding: 0;
     border: 25px solid navy;
-    margin: 0px;
+    margin: 0;
 }
 
-/* port styling */
-.available-magnet {
-    fill: yellow;
-}
-
-/* element styling */
-.available-cell rect {
-    stroke-dasharray: 5, 2;
-}

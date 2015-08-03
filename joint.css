@@ -37,7 +37,7 @@ path:not([d]) {
 */
 
 /* .magnet is an element that can be either source or a target of a link */
-/*
+
 .magnet {
    fill: black;
    fill-opacity: 0;
@@ -52,13 +52,23 @@ path:not([d]) {
 .magnet:hover {
    stroke-opacity: .5;
 }
-*/
+
 
 [magnet=true]:not(.element) {
    cursor: crosshair;
 }
 [magnet=true]:not(.element):hover {
    opacity: .7;
+}
+
+/* port styling */
+.available-magnet {
+    fill: yellow;
+}
+
+/* element styling */
+.available-cell rect {
+    stroke-dasharray: 5, 2;
 }
 
 /*
