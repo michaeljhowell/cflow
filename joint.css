@@ -91,7 +91,6 @@ the whole group of elements. Each plugin can provide its own stylesheet.
    user-drag: none;
 }
 
-
 /* 
 
 connection-wrap is a <path> element of the joint.dia.Link that follows the .connection <path> of that link.
